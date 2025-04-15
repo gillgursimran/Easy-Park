@@ -1,0 +1,36 @@
+/* 
+  Localizable.strings
+  EasyPark
+
+  Created by Gursimran Singh Gill on 2023-08-08.
+  
+*/
+
+"app_name" = "Easy Park";
+"change_password" = "Change password";
+"change_password_confirmation" = "An email has been sent to %@ with further instructions to reset the password.";
+"error_changing_password" = "Something went wrong, please try again later.";
+"okay" = "OK";
+"signin" = "Sign in";
+"sign_with_face_id" = "Sign in with face ID";
+"register" = "Register";
+"signin_with_apple" = "Sign in with Apple";
+"signin_as_driver" = "Sign in as Driver";
+"signin_as_owner" = "Sign in as Property Owner";
+"placeholder_first_name" = "FIRST NAME";
+"placeholder_last_name" = "LAST NAME";
+"placeholder_email" = "EMAIL";
+"placeholder_password" = "PASSWORD";
+"required_field" = "This is a mandatory field";
+"reset_password" = "Reset password";
+"forgot_password_header" = "Forgot Password? Not a problem, enter your email below and password reset email will be sent.";
+"error_first_name_length" = "First name should have at least 4 characters.";
+"error_last_name_length" = "Last name should have at least 3 characters.";
+"error_email" = "Invalid email.";
+"error_password" = "Password should have at least 6 characters.";
+
+"home" = "Home";
+"favourites" = "Favourites";
+"profile" = "Profile";
+
+"no_location_found" = "No location found.";
