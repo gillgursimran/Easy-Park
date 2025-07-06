@@ -70,48 +70,6 @@ class TestData {
             leadingIcon: "GillPark",
             locationType: .ParkingGarage,
             location: Coordinate(latitude: 43.2003, longitude: 70.3334)
-        ),
-        ParkingSpot(
-            id: StringUtils.uuid(),
-            name: "Precise Park Link",
-            leadingIcon: "PrecisePark",
-            locationType: .ParkingGarage,
-            location: Coordinate(latitude: 43.2003, longitude: 71.3334)
-        ),
-        ParkingSpot(
-            id: StringUtils.uuid(),
-            name: "Innova Parking",
-            leadingIcon: "InnovaPark",
-            locationType: .ParkingLot,
-            location: Coordinate(latitude: 43.4003, longitude: 72.3334)
-        ),
-        ParkingSpot(
-            id: StringUtils.uuid(),
-            name: "Safe Garage",
-            leadingIcon: "SafeGarage",
-            locationType: .ParkingGarage,
-            location: Coordinate(latitude: 42.2003, longitude: 72.3334)
-        ),
-        ParkingSpot(
-            id: StringUtils.uuid(),
-            name: "Cater Parking",
-            leadingIcon: "CaterPark",
-            locationType: .ParkingLot,
-            location: Coordinate(latitude: 44.2003, longitude: 73.3334)
-        ),
-        ParkingSpot(
-            id: StringUtils.uuid(),
-            name: "Ample Parking",
-            leadingIcon: "AmplePark",
-            locationType: .ParkingGarage,
-            location: Coordinate(latitude: 45.2003, longitude: 71.3334)
-        ),
-        ParkingSpot(
-            id: StringUtils.uuid(),
-            name: "Gill Park",
-            leadingIcon: "GillPark",
-            locationType: .ParkingGarage,
-            location: Coordinate(latitude: 43.2003, longitude: 70.3334)
         )
     ]
 }

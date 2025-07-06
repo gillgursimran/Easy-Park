@@ -41,7 +41,6 @@ struct TabBarView: View {
                         Icon("Profile", bundle: EasyParkMain.bundle)
                     }
                 }
-//                .navigationTitle(Strings.roadsideInspectionMenuSchedules)
             }
             .navigationBarTitleDisplayMode(.inline)
             .accentColor(Colors.primaryBlue)
@@ -57,27 +56,6 @@ struct TabBarView: View {
                 }
             }
             .navigationBarBackButtonHidden()
-//            .overlay(
-//                VStack {
-//                    if !keyboardVisible {
-//                        Spacer()
-//                        FilledButton(
-//                            Strings.endRoadsideInspection,
-//                            width: geometry.getWidth(),
-//                            cornerRadius: Dimens.buttonCornerRadius
-//                        ) {
-//                            isInpectionStarted.toggle()
-//                        }
-//                        .padding(.bottom, Dimens.defaultButtonHeight + Dimens.spacingMedium)
-//                    }
-//                }
-//            )
-//            .onReceive(NotificationCenter.default.publisher(for: UIResponder.keyboardWillShowNotification)) { _ in
-//                keyboardVisible = true
-//            }
-//            .onReceive(NotificationCenter.default.publisher(for: UIResponder.keyboardWillHideNotification)) { _ in
-//                keyboardVisible = false
-//            }
         }
     }
 
